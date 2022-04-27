@@ -17,7 +17,7 @@ class Program
         Console.WriteLine("");
         Console.WriteLine("The program will then calculate whether it's positive or negative");
         Console.WriteLine("");
-        Console.Write("Input any positive or negative number: ");
+        Console.WriteLine("Input any positive or negative number: ");
         number = Convert.ToInt32(Console.ReadLine());
 
         // process
@@ -25,7 +25,7 @@ class Program
         if (number >= 0)
         {
             Console.WriteLine("this number is positive");
-        }else{
+        } else {
             Console.WriteLine("this number is negative");
         }
 
