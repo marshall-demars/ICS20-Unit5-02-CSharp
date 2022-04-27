@@ -25,7 +25,7 @@ class Program
         if (number >= 0)
         {
             Console.WriteLine("this number is positive");
-        } else {
+        }else{
             Console.WriteLine("this number is negative");
         }
 
